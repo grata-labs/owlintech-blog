@@ -10,10 +10,6 @@ params:
   description: "Tech reviews, guides, and more"
   author: Michael Smith
 
-  homeInfoParams:
-    Title: "Owl In Tech"
-    Content: "Tech reviews, guides, and tips"
-
   socialIcons:
     - name: github
       url: "https://github.com/grata-labs"
