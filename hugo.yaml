@@ -2,6 +2,7 @@ baseURL: https://owlintech.com/
 languageCode: en-us
 title: Owl In Tech
 theme: PaperMod
+enableRobotsTXT: true
 
 paginate: 10
 
@@ -24,6 +25,10 @@ params:
   disableThemeToggle: false
 
   assets:
+    favicon: /favicon.ico
+    favicon16x16: /favicon-16x16.png
+    favicon32x32: /favicon-32x32.png
+    apple_touch_icon: /apple-touch-icon.png
     disableFingerprinting: false
 
 menu:
@@ -40,6 +45,10 @@ menu:
       name: Search
       url: /search/
       weight: 30
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 40
 
 outputs:
   home:
