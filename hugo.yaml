@@ -1,0 +1,57 @@
+baseURL: https://owlintech.com/
+languageCode: en-us
+title: Owl In Tech
+theme: PaperMod
+
+paginate: 10
+
+params:
+  env: production
+  description: "Tech reviews, guides, and more"
+  author: Michael Smith
+
+  homeInfoParams:
+    Title: "Owl In Tech"
+    Content: "Tech reviews, guides, and tips"
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/grata-labs"
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: false
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  assets:
+    disableFingerprinting: false
+
+menu:
+  main:
+    - identifier: archive
+      name: Archive
+      url: /archives/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 30
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
