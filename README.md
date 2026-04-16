@@ -42,6 +42,10 @@ Drop image files into `static/content/images/`, then reference them in your post
 ![alt text](/content/images/my-image.jpg)
 ```
 
+### Cover images
+
+Cover images should be **1200×630px** (1.91:1 ratio). This looks great on the blog and is the standard Open Graph size for social media previews. Preferred format is **WebP** or PNG — keep file size under 200KB.
+
 ## Local preview
 
 ```bash
